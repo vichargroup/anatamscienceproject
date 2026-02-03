@@ -30,7 +30,7 @@ export default function About() {
                 📅
               </div>
               <h4 className="font-bold text-gray-900">Registration</h4>
-              <p className="text-sm text-gray-500">Sep 2025</p>
+              <p className="text-sm text-gray-500">10 March 2026</p>
             </div>
 
             <div>
@@ -38,7 +38,7 @@ export default function About() {
                 🧪
               </div>
               <h4 className="font-bold text-gray-900">Regional Exhibitions</h4>
-              <p className="text-sm text-gray-500">Oct 2025 – Dec 2025</p>
+              <p className="text-sm text-gray-500">22 March 2026</p>
             </div>
 
             <div>

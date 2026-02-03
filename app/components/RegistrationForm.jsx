@@ -62,7 +62,7 @@ export default function RegistrationForm() {
           <p className="text-gray-700 leading-relaxed">
             Dear <strong>{form.studentName}</strong>, <br /><br />
             We’re excited to have you join us on{" "}
-            <strong>8 March 2026</strong> at{" "}
+            <strong>22 March 2026</strong> at{" "}
             <strong>Bibwewadi, Pune</strong>.
             <br /><br />
             Get ready to explore, experiment, and showcase your creativity!
