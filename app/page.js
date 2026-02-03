@@ -5,16 +5,18 @@ import Objectives from "./components/Objectives";
 import CriteriaTheme from "./components/CriteriaTheme";
 import ClientRegistrationForm from "./components/ClientRegistrationForm";
 import Footer from "./components/Footer";
+import ThemeSection from "./components/ThemeSection";
 
 
 export default function Home() {
   return (
     <>
-      <main>
+      <main className="overflow-x-hidden">
         <Hero />
         <About />
         <Objectives />
         <CriteriaTheme />
+        <ThemeSection />
         <ClientRegistrationForm />
       </main>
 

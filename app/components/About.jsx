@@ -17,7 +17,7 @@ export default function About() {
           initial={{ opacity: 0, y: 60 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="bg-white/90 backdrop-blur rounded-[3rem] shadow-2xl p-8 md:p-14 space-y-24"
+          className="bg-white/90 backdrop-blur rounded-2xl shadow-2xl p-8 md:p-14 space-y-24"
         >
 
           {/* ================= TIMELINE ================= */}
@@ -58,7 +58,7 @@ export default function About() {
               initial={{ opacity: 0, x: -50 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.7 }}
-              className="rounded-[2.5rem] overflow-hidden shadow-xl"
+              className="rounded-xl overflow-hidden shadow-xl"
             >
               <img
                 src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=1000&q=80"
@@ -118,7 +118,7 @@ export default function About() {
               initial={{ opacity: 0, x: 50 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.7 }}
-              className="order-1 md:order-2 rounded-[2.5rem] overflow-hidden shadow-xl"
+              className="order-1 md:order-2 rounded-xl overflow-hidden shadow-xl"
             >
               <img
                 src="https://images.unsplash.com/photo-1606229365485-93a3b8ee0385?auto=format&fit=crop&w=1000&q=80"
