@@ -50,7 +50,7 @@ export default function RegistrationForm() {
   if (submitted) {
     return (
       <section
-        className="py-28 bg-gradient-to-b from-green-50 to-white px-4"
+        className="py-16 bg-gradient-to-b from-green-50 to-white px-4"
         suppressHydrationWarning
       >
         <div className="max-w-xl mx-auto bg-white rounded-3xl shadow-xl p-10 text-center">
@@ -81,7 +81,7 @@ export default function RegistrationForm() {
   /* ================= FORM VIEW ================= */
   return (
     <section
-      className="py-28 bg-gradient-to-b from-sky-50 to-white"
+      className="py-16 bg-gradient-to-b from-sky-50 to-white"
       suppressHydrationWarning
     >
       <div className="max-w-2xl mx-auto bg-white rounded-3xl shadow-2xl p-8 md:p-12">

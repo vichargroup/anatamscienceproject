@@ -25,7 +25,7 @@ const steps = [
 
 export default function CriteriaTheme() {
   return (
-    <section className="relative py-28 bg-gradient-to-b from-sky-50 via-white to-indigo-50">
+    <section className="relative py-15 bg-gradient-to-b from-sky-50 via-white to-indigo-50">
 
       {/* Decorative blobs */}
       <div className="absolute -top-24 -left-24 w-80 h-80 bg-blue-200 rounded-full blur-3xl opacity-30"></div>
@@ -40,10 +40,10 @@ export default function CriteriaTheme() {
           transition={{ duration: 0.6 }}
           className="text-center mb-20"
         >
-          <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4">
+          <h2 className="font-heading text-3xl md:text-4xl font-extrabold text-gray-900 mb-3">
             🧭 Participation Criteria
           </h2>
-          <p className="text-gray-600 max-w-2xl mx-auto text-base md:text-lg">
+          <p className="font-body text-gray-600 max-w-2xl mx-auto text-base md:text-lg">
             Team size Minimum 2 & maximum 3 student in group
           </p>
         </motion.div>
@@ -65,10 +65,10 @@ export default function CriteriaTheme() {
               </div>
 
               <div className="bg-white/90 backdrop-blur rounded-3xl shadow-xl p-6 hover:shadow-2xl transition">
-                <h3 className="text-lg font-bold text-gray-900 mb-2">
+                <h3 className="font-heading text-base md:text-lg font-bold text-gray-900 mb-2">
                   {step.title}
                 </h3>
-                <p className="text-gray-700 text-sm md:text-base leading-relaxed">
+                <p className="font-body text-gray-700 text-sm md:text-base leading-relaxed">
                   {step.desc}
                 </p>
               </div>
