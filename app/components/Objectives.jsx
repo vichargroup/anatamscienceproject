@@ -62,11 +62,7 @@ export default function Objectives() {
 
         {/* ================= MOBILE SWIPE | DESKTOP GRID ================= */}
         <div
-          className="
-    flex gap-6 overflow-x-auto touch-pan-x snap-x snap-mandatory
-    md:grid md:grid-cols-3 md:gap-10 md:overflow-visible
-    scrollbar-none pb-6 md:pb-0
-  "
+          className="flex gap-6 overflow-x-auto touch-pan-x snap-x snap-mandatory md:grid md:grid-cols-3 md:gap-10 md:overflow-visible scrollbar-none pb-6 md:pb-0"
         >
           {/* LEFT SPACER (IMPORTANT) */}
           <div className="shrink-0 w-[7.5%] md:hidden"></div>
@@ -77,13 +73,7 @@ export default function Objectives() {
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.4 }}
-              className="
-        min-w-[85%] sm:min-w-[70%] md:min-w-0
-        bg-white/90 backdrop-blur
-        rounded-3xl shadow-xl
-        overflow-hidden
-        snap-center
-      "
+              className="min-w-[85%] sm:min-w-[70%] md:min-w-0 bg-white/90 backdrop-blur rounded-3xl shadow-xl overflow-hidden snap-center"
             >
               {/* Image */}
               <div className="relative h-48 overflow-hidden">
