@@ -17,7 +17,9 @@ export default function Home() {
         <Objectives />
         <CriteriaTheme />
         <ThemeSection />
-        <ClientRegistrationForm />
+         <div id="registration">
+          <ClientRegistrationForm />
+        </div>
       </main>
 
       <Footer />
