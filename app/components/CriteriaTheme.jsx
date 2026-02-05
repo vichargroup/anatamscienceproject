@@ -44,7 +44,7 @@ export default function CriteriaTheme() {
             🧭 Participation Criteria
           </h2>
           <p className="font-body text-gray-600 max-w-2xl mx-auto text-base md:text-lg">
-            Team size Minimum 2 & maximum 3 students in group
+            Team size Minimum 2 & maximum 3 students in a group
           </p>
         </motion.div>
 
