@@ -31,32 +31,52 @@ export default function Footer() {
             </h3>
 
             <ul className="space-y-4 text-gray-300">
+              {/* Phone */}
               <li className="flex items-center gap-4 md:flex-row-reverse md:justify-start">
                 <Phone size={18} className="text-cyan-400 shrink-0" />
-                <span className="text-right">
+                <a
+                  href="tel:+919970361906"
+                  className="hover:text-cyan-400 transition text-right"
+                >
                   +91 9970361906 | 9270189405
-                </span>
+                </a>
               </li>
 
+              {/* Email */}
               <li className="flex items-center gap-4 md:flex-row-reverse md:justify-start">
                 <Mail size={18} className="text-cyan-400 shrink-0" />
-                <span className="text-right">
+                <a
+                  href="mailto:info@vichargroup.com"
+                  className="hover:text-cyan-400 transition text-right"
+                >
                   info@vichargroup.com
-                </span>
+                </a>
               </li>
 
+              {/* Address (Google Maps) */}
               <li className="flex items-center gap-4 md:flex-row-reverse md:justify-start">
                 <MapPin size={18} className="text-cyan-400 shrink-0" />
-                <span className="text-right">
+                <a
+                  href="https://www.google.com/maps/search/?api=1&query=Bibwewadi,+Pune+411037"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-cyan-400 transition text-right"
+                >
                   Bibwewadi, Pune – 411037
-                </span>
+                </a>
               </li>
 
+              {/* Website */}
               <li className="flex items-center gap-4 md:flex-row-reverse md:justify-start">
                 <Globe size={18} className="text-cyan-400 shrink-0" />
-                <span className="text-right">
+                <a
+                  href="https://www.vichargroup.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-cyan-400 transition text-right"
+                >
                   www.vichargroup.com
-                </span>
+                </a>
               </li>
             </ul>
           </div>
