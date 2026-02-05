@@ -4,31 +4,31 @@ import { motion } from "framer-motion";
 
 const objectives = [
   {
-    img: "https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=600&q=80",
+    img: "/innovativeideas.jpeg",
     text: "Provide a forum for learners to pursue natural curiosity and spark innovative ideas.",
     icon: "💡",
     alt: "Curiosity and Innovation",
   },
   {
-    img: "https://images.unsplash.com/photo-1507413245164-6160d8298b31?auto=format&fit=crop&w=600&q=80",
+    img: "/criticalthinking.jpeg",
     text: "Provide scope for inventive, critical thinking and analytical problem solving.",
     icon: "🧠",
     alt: "Critical Thinking",
   },
   {
-    img: "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=600&q=80",
+    img: "/environmentalissues.jpeg",
     text: "Create awareness about environmental issues and sustainable global concerns.",
     icon: "🌱",
     alt: "Environmental Awareness",
   },
   {
-    img: "https://images.unsplash.com/photo-1509228468518-180dd4864904?auto=format&fit=crop&w=600&q=80",
+    img: "/mathematics.jpeg",
     text: "Apply mathematics and IT to visualise and solve real-world problems.",
     icon: "📊",
     alt: "Mathematics and Data",
   },
   {
-    img: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=600&q=80",
+    img: "/encouragelearners.jpeg",
     text: "Encourage learners to foresee the future of the planet as responsible human beings.",
     icon: "🌍",
     alt: "Future of Earth",
@@ -80,7 +80,7 @@ export default function Objectives() {
                 <img
                   src={item.img}
                   alt={item.alt}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-fit"
                 />
                 <div className="absolute top-4 left-4 w-12 h-12 rounded-xl bg-white flex items-center justify-center text-2xl shadow-md">
                   {item.icon}

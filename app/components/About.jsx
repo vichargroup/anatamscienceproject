@@ -205,9 +205,9 @@ export default function About() {
               className="rounded-xl overflow-hidden shadow-xl"
             >
               <img
-                src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=1000&q=80"
+                src="/aboutsciexibition.jpeg"
                 alt="Students working on science experiments"
-                className="w-full h-[260px] md:h-[380px] object-cover"
+                className="w-full h-[260px] md:h-[380px] object-fit"
               />
             </motion.div>
 
@@ -264,9 +264,9 @@ export default function About() {
               className="order-1 md:order-2 rounded-xl overflow-hidden shadow-xl"
             >
               <img
-                src="https://images.unsplash.com/photo-1606229365485-93a3b8ee0385?auto=format&fit=crop&w=1000&q=80"
+                src="/whystudentparticipate.jpeg"
                 alt="Students presenting science projects"
-                className="w-full h-[260px] md:h-[380px] object-cover"
+                className="w-full h-[260px] md:h-[380px] object-fit"
               />
             </motion.div>
           </div>
