@@ -19,3 +19,24 @@
   font-family: var(--font-heading);
 }
 
+
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-marquee {
+  display: inline-block;
+  min-width: 100%;
+  animation: marquee 20s linear infinite;
+}
+
+/* ✅ CORRECT WAY: wrapper hover pe pause */
+.marquee-wrapper:hover .animate-marquee {
+  animation-play-state: paused;
+}

@@ -27,7 +27,7 @@ export default function About() {
   <Calendar className="text-blue-600" size={26} />
 </div>
               <h4 className="font-heading font-semibold text-gray-900">
-                Registration End On
+                Registration Ends On
               </h4>
               <p className="font-body text-sm text-gray-500">
                 10th March 2026
