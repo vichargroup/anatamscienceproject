@@ -23,7 +23,7 @@
 
 @keyframes marquee {
   0% {
-    transform: translateX(100%);
+    transform: translateX(0%);
   }
   100% {
     transform: translateX(-100%);
@@ -31,12 +31,12 @@
 }
 
 .animate-marquee {
-  display: inline-block;
-  min-width: 100%;
+  display: inline-flex;
+  width: max-content;
   animation: marquee 20s linear infinite;
 }
 
-/* ✅ CORRECT WAY: wrapper hover pe pause */
+/* hover pe stop */
 .marquee-wrapper:hover .animate-marquee {
   animation-play-state: paused;
 }
