@@ -76,7 +76,7 @@ export default function Objectives() {
               className="min-w-[85%] sm:min-w-[70%] md:min-w-0 bg-white/90 backdrop-blur rounded-3xl shadow-xl overflow-hidden snap-center"
             >
               {/* Image */}
-              <div className="relative h-48 overflow-hidden">
+              <div className="relative h-64 overflow-hidden">
                 <img
                   src={item.img}
                   alt={item.alt}
@@ -89,7 +89,7 @@ export default function Objectives() {
 
               {/* Text */}
               <div className="p-6 text-center">
-                <p className="font-body text-gray-700 text-sm md:text-base font-medium leading-relaxed">
+                <p className="font-body text-gray-700 text-base  md:text-lg leading-relaxed">
                   {item.text}
                 </p>
               </div>

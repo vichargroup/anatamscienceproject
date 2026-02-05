@@ -156,7 +156,7 @@ export default function About() {
         >
           {/* ================= TIMELINE ================= */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center relative">
-            <div className="hidden md:block absolute top-10 left-1/2 w-[65%] h-[2px] bg-gradient-to-r from-blue-200 via-green-200 to-purple-200 -translate-x-1/2"></div>
+            
 
             <div>
               <div className="w-14 h-14 mx-auto mb-3 rounded-2xl bg-blue-100 flex items-center justify-center text-2xl shadow-md">
@@ -166,7 +166,7 @@ export default function About() {
                 Registration End
               </h4>
               <p className="font-body text-sm text-gray-500">
-                10 March 2026
+                10th March 2026
               </p>
             </div>
 
@@ -178,7 +178,7 @@ export default function About() {
                 Event Date
               </h4>
               <p className="font-body text-sm text-gray-500">
-                22 March 2026
+                22nd March 2026
               </p>
             </div>
 

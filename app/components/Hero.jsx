@@ -56,7 +56,7 @@ export default function Hero() {
       <img
         src="/herosection.png"
         alt="Hero"
-        className="w-full h-auto max-h-screen object-fit"
+        className="w-full h-[75vh] sm:h-auto max-h-screen object-fit"
       />
     </section>
   );

@@ -34,7 +34,7 @@ export default function ThemeSection() {
           {/* Physics */}
           <div className="bg-white rounded-3xl shadow-xl p-6">
             <h3 className="font-heading text-base md:text-lg font-bold text-blue-600 mb-3">🔬 PHYSICS</h3>
-            <ul className="font-body space-y-1.5 text-gray-700 text-sm">
+            <ul className="font-body space-y-1.5 text-gray-700 text-base md:text-lg leading-relaxed">
               <li>• Energy and Power</li>
               <li>• Environment and Climate</li>
               <li>• Transport and Motion</li>
@@ -46,7 +46,7 @@ export default function ThemeSection() {
           {/* Chemistry */}
           <div className="bg-white rounded-3xl shadow-xl p-6">
             <h3 className="font-heading text-base md:text-lg font-bold text-pink-600 mb-3">🧪 CHEMISTRY</h3>
-            <ul className="font-body space-y-1.5 text-gray-700 text-sm">
+            <ul className="font-body space-y-1.5 text-gray-700 text-base md:text-lg leading-relaxed">
               <li>• Green Chemistry</li>
               <li>• Energy and Fuels</li>
               <li>• Waste Management and Recycling</li>
@@ -58,7 +58,7 @@ export default function ThemeSection() {
           {/* Biology */}
           <div className="bg-white rounded-3xl shadow-xl p-6">
             <h3 className="font-heading text-base md:text-lg font-bold text-green-600 mb-3">🧬 BIOLOGY</h3>
-            <ul className="font-body space-y-1.5 text-gray-700 text-sm">
+            <ul className="font-body space-y-1.5 text-gray-700 text-base md:text-lg leading-relaxed">
               <li>• Food, Health and Hygiene</li>
               <li>• Ecology and Biodiversity</li>
               <li>• Climate Change and Life on Earth</li>
@@ -70,7 +70,7 @@ export default function ThemeSection() {
           {/* Mathematics */}
           <div className="bg-white rounded-3xl shadow-xl p-6">
             <h3 className="font-heading text-base md:text-lg font-bold text-purple-600 mb-3">📐 MATHEMATICS</h3>
-            <ul className="font-body space-y-1.5 text-gray-700 text-sm">
+            <ul className="font-body space-y-1.5 text-gray-700 text-base md:text-lg leading-relaxed">
               <li>• Data Statistics and Sustainability</li>
               <li>• Mathematical Modelling and Prediction</li>
               <li>• Geometry and Green Architecture</li>

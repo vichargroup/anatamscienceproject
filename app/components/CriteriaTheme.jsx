@@ -68,7 +68,7 @@ export default function CriteriaTheme() {
                 <h3 className="font-heading text-base md:text-lg font-bold text-gray-900 mb-2">
                   {step.title}
                 </h3>
-                <p className="font-body text-gray-700 text-sm md:text-base leading-relaxed">
+                <p className="font-body text-gray-700 text-base md:text-lg leading-relaxed">
                   {step.desc}
                 </p>
               </div>
