@@ -20,12 +20,12 @@ export default function About() {
         >
           {/* ================= TIMELINE ================= */}
           <div className="grid grid-cols-3 gap-6 md:gap-8 text-center relative">
-            
+
 
             <div>
               <div className="w-14 h-14 mx-auto mb-3 rounded-2xl bg-blue-100 flex items-center justify-center shadow-md">
-  <Calendar className="text-blue-600" size={26} />
-</div>
+                <Calendar className="text-blue-600" size={26} />
+              </div>
               <h4 className="font-heading font-semibold text-gray-900">
                 Registration Ends On
               </h4>
@@ -36,7 +36,7 @@ export default function About() {
 
             <div>
               <div className="w-14 h-14 mx-auto mb-3 rounded-2xl bg-green-100 flex items-center justify-center text-2xl shadow-md">
-               <FlaskConical size={26} className="text-green-600" />
+                <FlaskConical size={26} className="text-green-600" />
               </div>
               <h4 className="font-heading font-semibold text-gray-900">
                 Event Date
@@ -134,6 +134,73 @@ export default function About() {
               />
             </motion.div>
           </div>
+          {/* ================= PRIZES & RECOGNITION ================= */}
+          <motion.div
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            className="
+    mt-12
+    rounded-2xl
+    bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900
+    p-6 md:p-10
+    shadow-2xl
+  "
+          >
+            {/* Heading */}
+            <h3 className="text-center text-2xl md:text-3xl font-heading font-bold text-cyan-400 mb-8">
+              🏆 Prizes & Recognition
+            </h3>
+
+            {/* Prize Cards */}
+            <div
+              className="
+      grid gap-5
+      grid-cols-1
+      md:grid-cols-4
+      max-w-6xl mx-auto
+    "
+            >
+              {/* 1st Prize */}
+              <div className="bg-white/10 backdrop-blur rounded-xl p-5 text-white flex items-center gap-4 md:flex-col md:text-center">
+                <span className="text-3xl">🥇</span>
+                <p className="font-body text-base md:text-lg">
+                  <span className="font-semibold block">1st Prize</span>
+                  ₹10,000 + Medal
+                </p>
+              </div>
+
+              {/* 2nd Prize */}
+              <div className="bg-white/10 backdrop-blur rounded-xl p-5 text-white flex items-center gap-4 md:flex-col md:text-center">
+                <span className="text-3xl">🥈</span>
+                <p className="font-body text-base md:text-lg">
+                  <span className="font-semibold block">2nd Prize</span>
+                  ₹5,000 + Medal
+                </p>
+              </div>
+
+              {/* 3rd Prize */}
+              <div className="bg-white/10 backdrop-blur rounded-xl p-5 text-white flex items-center gap-4 md:flex-col md:text-center">
+                <span className="text-3xl">🥉</span>
+                <p className="font-body text-base md:text-lg">
+                  <span className="font-semibold block">3rd Prize</span>
+                  ₹3,000 + Medal
+                </p>
+              </div>
+
+              {/* Certificate */}
+              <div className="bg-white/10 backdrop-blur rounded-xl p-5 text-white flex items-center gap-4 md:flex-col md:text-center">
+                <span className="text-3xl">📜</span>
+                <p className="font-body text-base md:text-lg">
+                  <span className="font-semibold block">
+                    Certificate
+                  </span>
+                  For All Participants
+                </p>
+              </div>
+            </div>
+          </motion.div>
+
         </motion.div>
       </div>
     </section>
