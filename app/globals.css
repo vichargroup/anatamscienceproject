@@ -21,19 +21,19 @@
 
 
 
-@keyframes marquee {
+@keyframes marqueeSingle {
   0% {
-    transform: translateX(0%);
+    transform: translateX(-100%);
   }
   100% {
-    transform: translateX(-100%);
+    transform: translateX(100vw);
   }
 }
 
-.animate-marquee {
-  display: inline-flex;
-  width: max-content;
-  animation: marquee 20s linear infinite;
+.marquee-single {
+  display: inline-block;
+  white-space: nowrap;
+  animation: marqueeSingle 20s linear infinite;
 }
 
 /* hover pe stop */
